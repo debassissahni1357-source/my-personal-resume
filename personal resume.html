@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        /* Global Styling */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background: #f4f6f9;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background: #2c3e50;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            padding: 30px;
+            background: #34495e;
+            color: white;
+        }
+
+        header img {
+            width: 150px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+
+        /* Sections */
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        /* Card Layout */
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background: #2c3e50;
+            color: white;
+        }
+
+        /* Lists */
+        ul li, ol li {
+            margin: 5px 0;
+        }
+
+        /* Form Styling */
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input, textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            background: #2c3e50;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #1a252f;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background: #2c3e50;
+            color: white;
+            padding: 15px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- Header -->
+<header>
+    <h1>Devashish Sahni</h1>
+    <p>BBA DBE (IIM Bangalore) | BBA + MBA (IIT Patna)</p>
+    <img src="profile.jpg" alt="Profile Photo">
+</header>
+
+<!-- About -->
+<section id="about" class="card">
+    <h2>About Me</h2>
+    <p>I am a motivated student pursuing dual degrees from IIM Bangalore and IIT Patna. I am passionate about business, leadership, and innovation.</p>
+</section>
+
+<!-- Education -->
+<section id="education" class="card">
+    <h2>Education</h2>
+    <table>
+        <tr>
+            <th>Degree</th>
+            <th>Institute</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>BBA DBE</td>
+            <td>IIM Bangalore</td>
+            <td>Ongoing</td>
+        </tr>
+        <tr>
+            <td>BBA + MBA</td>
+            <td>IIT Patna</td>
+            <td>Ongoing</td>
+        </tr>
+    </table>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="card">
+    <h2>Skills</h2>
+    <ul>
+        <li>Communication</li>
+        <li>Leadership</li>
+        <li>Problem Solving</li>
+        <li>HTML & CSS</li>
+    </ul>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="card">
+    <h2>Contact Me</h2>
+    <form>
+        <input type="text" name="name" placeholder="Your Name">
+        <input type="email" name="email" placeholder="Your Email">
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Devashish Sahni</p>
+</footer>
+
+</body>
+</html>
